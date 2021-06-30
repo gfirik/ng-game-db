@@ -1,7 +1,7 @@
 export interface Game {
     background_image: string;
     name: string;
-    releases: string;
+    released: string;
     metacritic_url: string;
     website: string;
     describtion: string;
@@ -12,6 +12,7 @@ export interface Game {
     ratings: Array<Rating>;
     screenshots: Array<Screenshots>;
     trailers: Array<Trailer>;
+    id: string;
 }
 
 export interface APIResponse<T> {
