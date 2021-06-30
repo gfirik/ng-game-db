@@ -1,0 +1,119 @@
+.filters {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+::ng-deep .mat-form-field-infix {
+  background-color: #4E5139;
+}
+
+::ng-deep .mat-select-value,
+::ng-deep .mat-select-arrow,
+::ng-deep .mat-form-field-hide-placeholder .mat-select-placeholder,
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-label {
+  color: #B8C0B8 !important;
+  opacity: 1;
+}
+
+::ng-deep .mat-form-field-infix {
+  border-color: #B8C0B8 !important;
+  border-top: none;
+  padding-left: 5px !important;
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-label {
+  padding-left: 5px;
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: #B8C0B8 !important;
+}
+
+.games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.game {
+  width: 280px;
+  margin: 10px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #212214;
+  -webkit-box-shadow: 4px 3px 8px 0 #A9A594;
+          box-shadow: 4px 3px 8px 0 #A9A594;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  cursor: pointer;
+}
+
+.game:hover {
+  -webkit-box-shadow: 4px 3px 11px 6px #A9A594;
+          box-shadow: 4px 3px 11px 6px #A9A594;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.game-thumb-container {
+  background-color: #212214;
+  position: relative;
+  height: 172px;
+  color: #B8C0B8;
+  text-align: center;
+}
+
+.game-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 172px;
+}
+
+.game-description {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 157px;
+}
+
+.game-name {
+  color: #B8C0B8;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.game-platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game-platform {
+  width: 20px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=home.component.css.map */
