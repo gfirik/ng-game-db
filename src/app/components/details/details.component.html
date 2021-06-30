@@ -13,8 +13,9 @@
                 <h2 class="game-header-release-date">Release: {{ game.released | date}}</h2>
                 <p class="game-header-genres">
                     <span *ngFor="let genre of game.genres; let last = last"
-                    >{{ game.genres }}<span *ngif="!last">,</span></span>
-                </p>
+                    >{{ genre.name }}<span *ngIf="!last">, </span></span
+                  >
+                  </p>
                 <div class="game-gauge">
                     <mwl-gauge
                         class="two"
@@ -33,7 +34,8 @@
                         href="{{ game.metacritic_url }}"
                     >Metacritic</a>
                 </div>
-            </div>
+            </div> 
+            <app-game-tabs [game]="game"></app-game-tabs>
         </div>
     </div>
 </div>
