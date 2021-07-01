@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=app.component.css.map */
+footer {
+  width: 100%;
+  height: 30px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+footer p {
+  font-size: 20px;
+  color: #4E5139;
+}
+
+footer p a {
+  color: #A9A594;
+  text-decoration: none;
+}
+/*# sourceMappingURL=app.component.css.map */

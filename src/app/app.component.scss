@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    p {
+        font-size: 20px;
+        color: #4E5139;
+        a {
+            color: #A9A594;
+            text-decoration: none;
+        }
+    }
+}
